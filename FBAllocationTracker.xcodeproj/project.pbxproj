@@ -222,6 +222,7 @@
 					};
 					75BF0EEE1C5BCF8100E0DAB6 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 7AM452PK4F;
 					};
 				};
 			};
@@ -230,6 +231,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 75BF0EBB1C5BCEA000E0DAB6;
@@ -393,6 +395,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "$(SRCROOT)/FBAllocationTracker/FBAllocationTracker-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.facebook.FBAllocationTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -410,6 +413,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "$(SRCROOT)/FBAllocationTracker/FBAllocationTracker-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.facebook.FBAllocationTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -420,6 +424,7 @@
 		75BF0EF81C5BCF8100E0DAB6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 7AM452PK4F;
 				INFOPLIST_FILE = "FBAllocationTrackerTests/FBAllocationTrackerTests-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.facebook.FBAllocationTrackerTests;
@@ -430,6 +435,7 @@
 		75BF0EF91C5BCF8100E0DAB6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 7AM452PK4F;
 				INFOPLIST_FILE = "FBAllocationTrackerTests/FBAllocationTrackerTests-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.facebook.FBAllocationTrackerTests;
